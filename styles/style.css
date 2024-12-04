@@ -1,0 +1,236 @@
+*/ button {
+  background-color: #fbd3e7;
+  border: #2d0dfa solid 0px;
+  color: rgb(72, 6, 71);
+  border-radius: 7px;
+}
+
+/* HEADER */
+
+.c_header_r0k0 {
+  display: flex;
+  margin-left: 190px;
+  justify-content: center;
+  font-size: larger;
+  padding: 10px;
+  color: #3e1070;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to bottom,
+    rgb(210, 209, 209),
+    rgb(255, 255, 255)
+  );
+}
+
+/* Home */
+.c_header_r1k1 {
+  width: auto;
+  padding: 10px;
+  background: linear-gradient(to top, rgb(210, 209, 209), rgb(255, 255, 255));
+}
+
+.c_header_r1k2 {
+  padding: 10px;
+  background: linear-gradient(to top, rgb(210, 209, 209), rgb(255, 255, 255));
+}
+.c_header_r2k1 {
+  padding: 10px;
+  background: linear-gradient(to top, rgb(210, 209, 209), rgb(255, 255, 255));
+}
+.c_header_r2k2 {
+  padding: 10px;
+  background: linear-gradient(to top, rgb(210, 209, 209), rgb(255, 255, 255));
+}
+
+/* MAIN */
+
+.c_main_r0k0 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.c_main_r1k1 {
+  grid-row: span 1;
+  grid-column: span 1;
+  width: 185px;
+}
+
+.c_main_r1k1_section {
+  display: grid;
+  position: fixed;
+  top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3e1070;
+}
+
+.c_imd {
+  display: block;
+  margin: 0 auto;
+}
+.c_category {
+  border: 5px solid #f8c77d;
+}
+
+.c_main_r1k2 {
+  display: grid;
+  padding-bottom: 5px;
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.c_main_r1k2_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.s {
+  display: grid;
+  position: absolute;
+}
+
+.s_product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.s_0 {
+  display: grid;
+  position: relative;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to top, rgb(237, 236, 236), rgb(255, 255, 255));
+  padding-bottom: 60px;
+  border: 5px solid #ffffff;
+}
+
+.s_1 {
+  display: flex;
+  justify-self: center;
+  grid-row: span 1;
+  grid-column: span 1;
+  align-self: center;
+  padding-bottom: 15px;
+}
+
+.s_image {
+  width: 100px;
+}
+.s_image2 {
+  width: 130px;
+}
+
+/* Title */
+.s_2 {
+  grid-row: span 1;
+  grid-column: span 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: #0008ff;
+  background: linear-gradient(to right, #ff005d, #6304ac);
+  background-clip: text;
+  color: transparent;
+}
+
+/* price */
+.s_3 {
+  grid-row: span 1;
+  grid-column: span 1;
+  height: 20px;
+  background-color: #f1e1f2;
+}
+
+/* Description */
+.s_4 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+/* Category */
+.s_5 {
+  grid-row: span 1;
+  grid-column: span 1;
+  height: 20px;
+  background-color: #f1e1f2;
+}
+
+/* id */
+.s_8 {
+  display: flex;
+  /* justify-content: flex-end; */
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+/* button */
+.c_but {
+  border: 3px double #8800ff;
+  color: #8800ff;
+}
+
+/* button */
+.s_9 {
+  display: flex;
+  grid-row: span 1;
+  grid-column: span 1;
+  justify-content: center;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+  border: 3px double #0008ff;
+  transform: rotate(-12deg);
+}
+
+.c_button_del {
+  color: #1500ff;
+}
+
+/* FOOTER */
+
+.c_footer_r0k0 {
+  display: grid;
+  margin-left: 190px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  padding: 3px;
+  background: linear-gradient(
+    to bottom,
+    rgb(210, 209, 209),
+    rgb(255, 255, 255)
+  );
+}
+
+.c_footer_r1k1 {
+  grid-row: span 1;
+  grid-column: span 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: #8800ff;
+  font-size: 30px;
+
+  background: linear-gradient(to right, #ff005d, #6304ac);
+  background-clip: text;
+  color: transparent;
+}
+
+.c_footer_r1k2 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.c_footer_r2k1 {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.c_img2 {
+  width: 30px;
+}
+.c_footer_r2k2 {
+  grid-row: span 1;
+  grid-column: span 1;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Store API</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" type="image/png" href="/images/FafIcoAPI3.png"></head>
+<body>
+  <header> 
+    <div class="c_header_r0k0">
+      <div class="c_header_r1k1"><a href="">Home</a></div>
+      <div class="c_header_r1k2"><a href="">Info</a></div>
+      <div class="c_header_r2k1"><a href="">Blog</a></div>
+      <div class="c_header_r2k2"><a href="">Login</a></div>
+  </header>
+  <main>
+    <div class="c_main_r0k0">
+      <div class="c_main_r1k1">
+        <section class="c_main_r1k1_section">
+          <img class="c_imd" src="./images/FakeStoreAPI.png" alt="" width="150px">
+          Название <input type="text" placeholder="Title" id="id_input_title">
+          Цена <input type="text" placeholder="Price" id="id_input_price">
+          Описание <input type="text" placeholder="Description" id="id_input_description">
+          Категория <input type="text" placeholder="Category" id="id_input_category">
+          <button class="c_but" onclick="f_addProduct()">
+            Добавить товар</button>
+            <br>
+            <span>
+              Фильтрация:
+            </span>
+            <label for="id_Input">
+                Выберите категорию:
+            </label>
+                <input list="optionsList" id="id_Input" name="name_Input" onchange="f_filter_category()">
+                <datalist id="optionsList">
+                  <section class="c_category" id="id_category">
+                  </section>
+                </datalist>
+                  <br>
+                  <section class="c_reset" id="id_reset"></section>
+                  <img class="s_image2" src="images/fsapi2.png" alt="">
+         </section>
+      </div>
+      <div class="c_main_r1k2">
+        <section class="c_main_r1k2_section" id="id_product"></section>
+        <button class="c_but" onclick="f_fromArray()">Загрузить еще</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="c_footer_r0k0">
+      <div class="c_footer_r1k1">Fake Store API</div>
+      <div class="c_footer_r1k2">  Info 1</div>
+      <div class="c_footer_r2k1"><img class="c_img2" src="./images/phone.png" alt="">1-234-56-789</div>
+      <div class="c_footer_r2k2">Info 2</div>
+    </div>
+  </footer>
+</body>
+<script src="./scripts/script.js"></script>
+</html>
